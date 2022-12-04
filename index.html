@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jost:ital@1&family=Noto+Sans:ital,wght@0,300;1,300&display=swap');
+    </style>
+</head>
+<!-- bg video -->
+<body>
+    <div class="background-video" style="width:100%;display:inline-block;">
+        <video autoplay muted loop id="myVideo">
+            <source src="Resources/home_page.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <div class="container" style="position: initial;">
+            <!--nav bar container -->
+            <div class="nav-bar" style="position:absolute;background-color: #0B0B45;">
+                <ul>
+                    <li style="float:right"><a href="media.html">Media</a></li>
+                    <li style="float:right"><a href="store.html">Store</a></li>
+                    <li style="float:right"><a href="profile.html">Profile</a></li>
+                    <li style="float:right"><a href="index.html">Home</a></li>
+                </ul>
+            </div>
+            <div class="heading">
+                <h1 style="margin-bottom: 10px;">Welcome to Ukiverse</h1>
+                <a href="profile.html" class="button">Enter</a>
+            </div>
+        </div>
+    </div>
+<footer style="margin-top: -27px;">
+    <form onsubmit="submitForm()">
+        <div class="container-footer">
+            <div class="top">
+                <div class="Newsletter">
+                    <h2>Subscribe to our Newsletter</h2>
+                    <p>Subscribe to us to always get updated by Uki's news and merchandise at all times!</p>
+                    <div class="form" style="background-color:black">
+                        <input type="text" placeholder="Name" name="name" required>
+                        <input type="text" placeholder="Email address" name="mail" required>
+                        <label style="color:white">
+                            <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+                        </label>
+                    </div>
+
+                    <div class="subscribe">
+                        <input type="submit" value="Submit">
+                    </div>
+                </div>
+                <div class="medias">
+                    <h2>Follow Us</h2>
+                    <p>Never Miss Out Any News About Uki!</p>
+                    <a href="https://www.youtube.com/@ukivioleta"><img src="Resources/youtube-01.png" alt=""></a>
+                    <a href="https://twitter.com/uki_violeta?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="Resources/twitter1-02.png" alt=""></a>
+                    <a href="https://www.nijisanji.jp/en"><img src="Resources/nijisanji1-03.png" alt=""></a>
+                </div>
+            </div>
+            <p>All credits to AnyColor Inc. , Uki Violeta</p>
+            <p>Gao Ziyu ID ASG1</p>
+        </div>
+    </form>
+</footer>
+<button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+<script src="script.js"></script>
+</body>
+</html>

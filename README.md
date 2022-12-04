@@ -1,3 +1,5 @@
 # ASG1
 
-# a site for Uki Violeta from Nijisanji EN Noctyx :)
+# a website site for Uki Violeta from Nijisanji EN Noctyx
+
+This website consist of the Profile of Uki Violeta, stream schedules and the media of Uki Violeta.
