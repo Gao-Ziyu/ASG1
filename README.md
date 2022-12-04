@@ -27,7 +27,7 @@ The wireframe of this project will be in the Adobe XD file which can be found un
 
 ## Technologies Uses
 
-N/A
+HTML, CSS and Javascript
 
 ## Testing
 
